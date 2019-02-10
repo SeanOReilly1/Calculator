@@ -1,0 +1,28 @@
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\bin\Debug\CalculatorTests.dll
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\bin\Debug\CalculatorTests.pdb
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\bin\Debug\MyCalculator.exe
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\bin\Debug\MyCalculator.pdb
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\bin\Debug\MyCalculator.exe.config
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.csprojAssemblyReference.cache
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.csproj.CoreCompileInputs.cache
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.csproj.CopyComplete
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.dll
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.pdb
+\\sec.local\Data\Homes\SO0393\My Documents\Sean\MyCalculator\CalculatorTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\bin\Debug\CalculatorTests.dll
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\bin\Debug\CalculatorTests.pdb
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\bin\Debug\MyCalculator.exe
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\bin\Debug\MyCalculator.pdb
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\bin\Debug\MyCalculator.exe.config
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.csprojAssemblyReference.cache
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.csproj.CoreCompileInputs.cache
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.csproj.CopyComplete
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.dll
+C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.pdb

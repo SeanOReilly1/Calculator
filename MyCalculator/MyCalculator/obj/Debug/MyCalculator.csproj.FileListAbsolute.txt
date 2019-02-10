@@ -1,0 +1,14 @@
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe.config
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\MyCalculator\bin\Debug\MyCalculator.pdb
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csprojAssemblyReference.cache
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.CoreCompileInputs.cache
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\MyCalculator\obj\Debug\MyCalculator.exe
+\\sec.local\Data\homes\SO0393\My Documents\Sean\MyCalculator\MyCalculator\obj\Debug\MyCalculator.pdb
+C:\Users\SO0393\Desktop\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe.config
+C:\Users\SO0393\Desktop\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe
+C:\Users\SO0393\Desktop\MyCalculator\MyCalculator\bin\Debug\MyCalculator.pdb
+C:\Users\SO0393\Desktop\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csprojAssemblyReference.cache
+C:\Users\SO0393\Desktop\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.CoreCompileInputs.cache
+C:\Users\SO0393\Desktop\MyCalculator\MyCalculator\obj\Debug\MyCalculator.exe
+C:\Users\SO0393\Desktop\MyCalculator\MyCalculator\obj\Debug\MyCalculator.pdb
