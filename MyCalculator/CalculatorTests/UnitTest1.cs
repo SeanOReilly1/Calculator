@@ -102,5 +102,26 @@ namespace CalculatorTests
             Assert.AreEqual(expectedWith0, actualResultWith0);
            // Assert.AreEqual(expectedWithNegative, actualResultWithNegative);
         }
+
+
+        [TestMethod]
+        public void TestPow()
+        {
+            //Assemble
+            Calculator calc = new Calculator();
+            double expected = 4;
+            double expectedWith0 = 1;
+            double expectedWithNegPower = 0.125;
+
+            //Act
+            double actualResult = calc.Power(2, 2);
+            double actualResultWith0 = calc.Power(2, 0);
+            double actualResultWithNegPower = calc.Power(2, -3);
+
+            //Assert
+            Assert.AreEqual(expected, actualResult);
+            Assert.AreEqual(expectedWith0, actualResultWith0);
+            Assert.AreEqual(expectedWithNegPower, actualResultWithNegPower);
+        }
     }
 }

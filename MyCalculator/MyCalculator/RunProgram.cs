@@ -21,33 +21,40 @@ namespace MyCalculator
             do
             {
                 Console.WriteLine("This is a Calculator, enter number, action, number ");
+                Console.WriteLine("Available Actions : ");
+                Console.WriteLine("+ - * / % pow ");
                 n1 = int.Parse(Console.ReadLine());
-                char action = char.Parse(Console.ReadLine());
+                string action = (Console.ReadLine());
                 n2 = int.Parse(Console.ReadLine());
 
-                if (action == '+')
+                if (action == "+")
                 {
                     Console.WriteLine(c.Add(n1, n2));
                 }
 
-                else if (action == '-')
+                else if (action == "-")
                 {
                     Console.WriteLine(c.Sub(n1, n2));
                 }
 
-                else if (action == '*')
+                else if (action == "*")
                 {
                     Console.WriteLine(c.Mul(n1, n2));
                 }
 
-                else if (action == '/')
+                else if (action == "/")
                 {
                     Console.WriteLine(c.Div(n1, n2));
                 }
 
-                else if (action == '%')
+                else if (action == "%")
                 {
                     Console.WriteLine(c.Mod(n1, n2));
+                }
+
+                else if (action.ToUpper() == "POW")
+                {
+                    Console.WriteLine(c.Power(n1, n2));
                 }
 
                 else
