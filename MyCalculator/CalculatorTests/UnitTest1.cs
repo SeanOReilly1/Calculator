@@ -123,5 +123,25 @@ namespace CalculatorTests
             Assert.AreEqual(expectedWith0, actualResultWith0);
             Assert.AreEqual(expectedWithNegPower, actualResultWithNegPower);
         }
+
+        [TestMethod]
+        public void TestSqrt()
+        {
+            //Assemble
+            Calculator calc = new Calculator();
+            double expected = 7;
+            double expectedWithNegative = double.NaN;
+            double expectedWith0 = 0;
+
+            //Act
+            double actualResult = calc.Sqrt(49);
+            double actualResultWithNegative = calc.Sqrt(-49);
+            double actualResultWith0 = calc.Sqrt(0);
+
+            //Assert
+            Assert.AreEqual(expected, actualResult);
+            Assert.AreEqual(expectedWithNegative, actualResultWithNegative);
+            Assert.AreEqual(expectedWith0, actualResultWith0);
+        }
     }
 }

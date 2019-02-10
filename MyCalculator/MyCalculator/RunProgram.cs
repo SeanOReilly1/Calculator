@@ -25,7 +25,16 @@ namespace MyCalculator
                 Console.WriteLine("+ - * / % pow ");
                 n1 = int.Parse(Console.ReadLine());
                 string action = (Console.ReadLine());
-                n2 = int.Parse(Console.ReadLine());
+                if(action != "sqrt")
+                {
+                    n2 = int.Parse(Console.ReadLine());
+                }
+
+                else
+                {
+                    n2 = 0;
+                }
+                
 
                 if (action == "+")
                 {
@@ -55,6 +64,11 @@ namespace MyCalculator
                 else if (action.ToUpper() == "POW")
                 {
                     Console.WriteLine(c.Power(n1, n2));
+                }
+
+                else if (action.ToUpper() == "SQRT")
+                {
+                    Console.WriteLine(c.Sqrt(n1));
                 }
 
                 else
