@@ -12,3 +12,10 @@ C:\Users\SO0393\Desktop\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csprojA
 C:\Users\SO0393\Desktop\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.CoreCompileInputs.cache
 C:\Users\SO0393\Desktop\MyCalculator\MyCalculator\obj\Debug\MyCalculator.exe
 C:\Users\SO0393\Desktop\MyCalculator\MyCalculator\obj\Debug\MyCalculator.pdb
+C:\AdvancedProgramming\Calculator\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe.config
+C:\AdvancedProgramming\Calculator\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe
+C:\AdvancedProgramming\Calculator\MyCalculator\MyCalculator\bin\Debug\MyCalculator.pdb
+C:\AdvancedProgramming\Calculator\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csprojAssemblyReference.cache
+C:\AdvancedProgramming\Calculator\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.CoreCompileInputs.cache
+C:\AdvancedProgramming\Calculator\MyCalculator\MyCalculator\obj\Debug\MyCalculator.exe
+C:\AdvancedProgramming\Calculator\MyCalculator\MyCalculator\obj\Debug\MyCalculator.pdb

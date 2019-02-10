@@ -65,18 +65,42 @@ namespace CalculatorTests
         
 
         [TestMethod]
-        //[ExpectedException(typeof(DivideByZeroException))]
+        [ExpectedException(typeof(DivideByZeroException))]
         public void TestDiv()
         {
             //Assemble
             Calculator calc = new Calculator();
             int expected = 2;
+            int expectedWith0 = 10;
 
             //Act
             int ActualResult = calc.Div(10, 5);
+            int ActualResultWith0 = calc.Div(10, 0);
 
             //Assert
             Assert.AreEqual(expected, ActualResult);
+            Assert.AreEqual(expectedWith0, ActualResultWith0);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(DivideByZeroException))]
+        public void TestMod()
+        {
+            //Assemble
+            Calculator calc = new Calculator();
+            int expected = 2;
+            int expectedWith0 = 10;
+            //int expectedWithNegative = -50;
+
+            //Act
+            int actualResult = calc.Mod(5, 3);
+            int actualResultWith0 = calc.Mod(10, 0);
+            //int actualResultWithNegative = calc.Mul(10, -5);
+
+            //Assert
+            Assert.AreEqual(expected, actualResult);
+            Assert.AreEqual(expectedWith0, actualResultWith0);
+           // Assert.AreEqual(expectedWithNegative, actualResultWithNegative);
         }
     }
 }

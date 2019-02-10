@@ -45,6 +45,11 @@ namespace MyCalculator
                     Console.WriteLine(c.Div(n1, n2));
                 }
 
+                else if (action == '%')
+                {
+                    Console.WriteLine(c.Mod(n1, n2));
+                }
+
                 else
                 {
                     Console.WriteLine("Invalid Entry");

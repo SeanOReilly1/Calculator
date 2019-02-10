@@ -27,5 +27,10 @@ namespace MyCalculator
         {
             return a / b;
         }
+
+        public int Mod(int a, int b)
+        {
+            return a % b;
+        }
     }
 }

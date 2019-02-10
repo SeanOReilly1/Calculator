@@ -26,3 +26,17 @@ C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.c
 C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.csproj.CopyComplete
 C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.dll
 C:\Users\SO0393\Desktop\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.pdb
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\bin\Debug\CalculatorTests.dll
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\bin\Debug\CalculatorTests.pdb
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\bin\Debug\MyCalculator.exe
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\bin\Debug\MyCalculator.pdb
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\bin\Debug\MyCalculator.exe.config
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.csprojAssemblyReference.cache
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.csproj.CoreCompileInputs.cache
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.csproj.CopyComplete
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.dll
+C:\AdvancedProgramming\Calculator\MyCalculator\CalculatorTests\obj\Debug\CalculatorTests.pdb
