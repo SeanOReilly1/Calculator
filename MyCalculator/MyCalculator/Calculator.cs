@@ -42,5 +42,10 @@ namespace MyCalculator
         {
             return Math.Sqrt(a);
         }
+
+        public double Sine(double a)
+        {
+            return Math.Sin(a);
+        }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace MyCalculator
 {
@@ -11,6 +12,8 @@ namespace MyCalculator
         static void Main(string[] args)
         {
             Calculator c = new Calculator();
+            Calculator c2 = new Calculator();
+            Console.WriteLine(Math.Round(c2.Sine(20), 4));
             int n1, n2;
             string again = "";
             Input(c, out n1, out n2, out again);
@@ -22,10 +25,13 @@ namespace MyCalculator
             {
                 Console.WriteLine("This is a Calculator, enter number, action, number ");
                 Console.WriteLine("Available Actions : ");
-                Console.WriteLine("+ - * / % pow ");
+                Console.WriteLine("+ - * / % pow sqrt sine cos tan ");
                 n1 = int.Parse(Console.ReadLine());
                 string action = (Console.ReadLine());
-                if(action.ToUpper() != "SQRT")
+
+                
+               
+                if ((action.ToUpper() != "SQRT") && (action.ToUpper() != "SINE")) 
                 {
                     n2 = int.Parse(Console.ReadLine());
                 }
@@ -34,8 +40,8 @@ namespace MyCalculator
                 {
                     n2 = 0;
                 }
-                
 
+              
                 if (action == "+")
                 {
                     Console.WriteLine(c.Add(n1, n2));
@@ -69,6 +75,11 @@ namespace MyCalculator
                 else if (action.ToUpper() == "SQRT")
                 {
                     Console.WriteLine(c.Sqrt(n1));
+                }
+
+                else if (action.ToUpper() == "SINE")
+                {
+                    Console.WriteLine(c.Sine(n1));
                 }
 
                 else

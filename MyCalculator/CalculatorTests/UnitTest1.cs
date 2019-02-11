@@ -143,5 +143,25 @@ namespace CalculatorTests
             Assert.AreEqual(expectedWithNegative, actualResultWithNegative);
             Assert.AreEqual(expectedWith0, actualResultWith0);
         }
+
+        [TestMethod]
+        public void TestSine()
+        {
+            //Assemble
+            Calculator calc = new Calculator();
+            double expected = 0.9129;
+           // double expectedWithNegative = double.NaN;
+            //double expectedWith0 = 0;
+
+            //Act
+            double actualResult = Math.Round(calc.Sine(20), 4);
+           // double actualResultWithNegative = calc.Sqrt(-49);
+           // double actualResultWith0 = calc.Sqrt(0);
+
+            //Assert
+            Assert.AreEqual(expected, actualResult);
+           // Assert.AreEqual(expectedWithNegative, actualResultWithNegative);
+           // Assert.AreEqual(expectedWith0, actualResultWith0);
+        }
     }
 }
