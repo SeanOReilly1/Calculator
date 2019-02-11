@@ -13,7 +13,7 @@ namespace MyCalculator
         {
             Calculator c = new Calculator();
             Calculator c2 = new Calculator();
-            Console.WriteLine(Math.Round(c2.Sine(20), 4));
+            Console.WriteLine(Math.Round(c2.Tan(20), 4));
             int n1, n2;
             string again = "";
             Input(c, out n1, out n2, out again);
@@ -31,7 +31,10 @@ namespace MyCalculator
 
                 
                
-                if ((action.ToUpper() != "SQRT") && (action.ToUpper() != "SINE")) 
+                if ((action.ToUpper() != "SQRT") && 
+                    (action.ToUpper() != "SINE") && 
+                    (action.ToUpper() != "COS") && 
+                    (action.ToUpper() != "TAN"))  
                 {
                     n2 = int.Parse(Console.ReadLine());
                 }
@@ -80,6 +83,16 @@ namespace MyCalculator
                 else if (action.ToUpper() == "SINE")
                 {
                     Console.WriteLine(c.Sine(n1));
+                }
+
+                else if (action.ToUpper() == "COS")
+                {
+                    Console.WriteLine(c.Cos(n1));
+                }
+
+                else if (action.ToUpper() == "TAN")
+                {
+                    Console.WriteLine(c.Tan(n1));
                 }
 
                 else

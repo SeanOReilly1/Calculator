@@ -47,5 +47,15 @@ namespace MyCalculator
         {
             return Math.Sin(a);
         }
+
+        public double Cos(double a)
+        {
+            return Math.Cos(a);
+        }
+
+        public double Tan(double a)
+        {
+            return Math.Tan(a);
+        }
     }
 }
