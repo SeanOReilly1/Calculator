@@ -14,7 +14,7 @@ namespace MyCalculator
             Calculator c = new Calculator();
             // Calculator c2 = new Calculator();
             // Console.WriteLine(Math.Round(c2.Tan(20), 4));
-            int n1 = 0, n2;
+            double n1 = 0, n2;
             string again = "";
             bool keep = true;
             
@@ -31,7 +31,7 @@ namespace MyCalculator
                     Console.WriteLine("Available Actions : ");
                     Console.WriteLine("+ - * / % pow sqrt sine cos tan ");
 
-                    n1 = int.Parse(Console.ReadLine());
+                    n1 = double.Parse(Console.ReadLine());
 
                
                 }

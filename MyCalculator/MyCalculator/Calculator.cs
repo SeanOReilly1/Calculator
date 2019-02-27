@@ -8,27 +8,27 @@ namespace MyCalculator
 {
     public class Calculator
     {
-        public int Add(int a, int b)
+        public double Add(double a, double b)
         {
             return a + b;
         }
 
-        public int Mul(int a, int b)
+        public double Mul(double a, double b)
         {
             return a * b;
         }
 
-        public int Sub(int a, int b)
+        public double Sub(double a, double b)
         {
             return a - b;
         }
 
-        public int Div(int a, int b)
+        public double Div(double a, double b)
         {
             return a / b;
         }
 
-        public int Mod(int a, int b)
+        public double Mod(double a, double b)
         {
             return a % b;
         }
