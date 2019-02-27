@@ -12,29 +12,50 @@ namespace MyCalculator
         static void Main(string[] args)
         {
             Calculator c = new Calculator();
-            Calculator c2 = new Calculator();
-            Console.WriteLine(Math.Round(c2.Tan(20), 4));
-            int n1, n2;
+            // Calculator c2 = new Calculator();
+            // Console.WriteLine(Math.Round(c2.Tan(20), 4));
+            int n1 = 0, n2;
             string again = "";
-            Input(c, out n1, out n2, out again);
-        }
+            bool keep = true;
+            
 
-        public static void Input(Calculator c, out int n1, out int n2, out string again)
-        {
             do
             {
-                Console.WriteLine("This is a Calculator, enter number, action, number ");
-                Console.WriteLine("Available Actions : ");
-                Console.WriteLine("+ - * / % pow sqrt sine cos tan ");
-                n1 = int.Parse(Console.ReadLine());
+                do
+                {
+                    keep = true;
+                try
+                {
+
+                    Console.WriteLine("This is a Calculator, enter number, action, number ");
+                    Console.WriteLine("Available Actions : ");
+                    Console.WriteLine("+ - * / % pow sqrt sine cos tan ");
+
+                    n1 = int.Parse(Console.ReadLine());
+
+               
+                }
+
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    keep = false;
+                    
+                }
+
+                   
+
+
+                } while (keep == false);
+
                 string action = (Console.ReadLine());
 
-                
-               
-                if ((action.ToUpper() != "SQRT") && 
-                    (action.ToUpper() != "SINE") && 
-                    (action.ToUpper() != "COS") && 
-                    (action.ToUpper() != "TAN"))  
+
+
+                if ((action.ToUpper() != "SQRT") &&
+                    (action.ToUpper() != "SINE") &&
+                    (action.ToUpper() != "COS") &&
+                    (action.ToUpper() != "TAN"))
                 {
                     n2 = int.Parse(Console.ReadLine());
                 }
@@ -44,10 +65,10 @@ namespace MyCalculator
                     n2 = 0;
                 }
 
-              
+
                 if (action == "+")
                 {
-                    Console.WriteLine(c.Add(n1, n2));
+                    Console.WriteLine("Answer is " + c.Add(n1, n2));
                 }
 
                 else if (action == "-")
@@ -99,12 +120,15 @@ namespace MyCalculator
                 {
                     Console.WriteLine("Invalid Entry");
                 }
-                
+
                 Console.WriteLine("Continue, Yes or No? ");
                 again = Console.ReadLine();
 
 
             } while (again.ToUpper() == "YES");
+
         }
     }
 }
+
+       
